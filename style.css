@@ -1,0 +1,40 @@
+:root {
+    --bg-principal: #0f172a;
+    /* Sfondo scuro profondo per la pagina */
+    --bg-card: #1e293b;
+    /* Sfondo delle tessere contatti e dei form */
+    --text-main: #f8fafc;
+    /* Testo principale bianco/ghiaccio */
+    --text-muted: #94a3b8;
+    /* Testo grigio per i numeri di telefono */
+    --primary-color: #10b981;
+    /* Verde smeraldo per aggiungere ed elementi attivi */
+    --danger-color: #f43f5e;
+    /* Rosa/Rosso acceso per eliminare */
+    --border-color: #334155;
+    /* Bordi scuri per separare gli elementi */
+}
+
+body {
+    background-color: var(--bg-principal);
+}
+
+h1{
+    color: var(--text-main);
+}
+
+.input-group-text {
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 130px;
+    justify-content: center;
+}
+
+.cardContact{
+    background-color: var(--bg-card);
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px var(--border-color);
+    color: var(--text-main);
+}
